@@ -2,4 +2,4 @@
 
 My dotfiles for what I daily drive
 
-![My regular desktop](/Images/Desktop_Image.png)
+![My Desktop](/images/Desktop_Image.png)
