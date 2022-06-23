@@ -24,7 +24,7 @@ berryc text_unfocus_color  ebdbb2
 berryc smart_place "true"
 berryc draw_text   "true"
 berryc edge_lock   "true"
-berryc set_font    "Fira code-10"
+berryc set_font    "Fira code-9"
 
 # autostart options
 feh --bg-scale $HOME/.config/berry/forest.jpg
