@@ -2,8 +2,12 @@
 
 A collection of my dotfiles for what I daily drive
 
-![My Desktop](Images/Desktop_Image.png)
+![My Desktop](Images/Desktop.png)
 
-Window manager: [berrywm](https://berrywm.org)  
-Bar: [LemonBar-xft](https://github.com/drscream/lemonbar-xft)  
-Round windows acheived with a [fork of picom](https://github.com/ibhagwan/picom)  
+![Another Pictureof my Desktop](Images/Fetch.png)
+
+WM: [BerryWM](https://berrywm.org/)
+
+Bar: [Polybar](https://polybar.github.io/)
+
+Compositer: [Picom](https://github.com/ibhagwan/picom)
