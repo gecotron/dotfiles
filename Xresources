@@ -1,85 +1,84 @@
-! -----------------------------------------------------------------------------
-! File: gruvbox-dark.xresources
-! Description: Retro groove colorscheme generalized
-! Author: morhetz <morhetz@gmail.com>
-! Source: https://github.com/morhetz/gruvbox-generalized
-! Last Modified: 6 Sep 2014
-! -----------------------------------------------------------------------------
-
-! hard contrast: *background: #1d2021
-*background: #282828
-! soft contrast: *background: #32302f
-*foreground: #ebdbb2
-! Black + DarkGrey
-*color0:  #282828
-*color8:  #928374
-! DarkRed + Red
-*color1:  #cc241d
-*color9:  #fb4934
-! DarkGreen + Green
-*color2:  #98971a
-*color10: #b8bb26
-! DarkYellow + Yellow
-*color3:  #d79921
-*color11: #fabd2f
-! DarkBlue + Blue
-*color4:  #458588
-*color12: #83a598
-! DarkMagenta + Magenta
-*color5:  #b16286
-*color13: #d3869b
-! DarkCyan + Cyan
-*color6:  #689d6a
-*color14: #8ec07c
-! LightGrey + White
-*color7:  #a89984
-*color15: #ebdbb2
-
-! Urxvt Config
-
 ! special
-URxvt.foreground: #ebdbb2
-URxvt.background: #282828
-URxvt.cursorColor: #83a598
+*.foreground:   #d8caac
+*.background:   #323d43
+*.cursorColor:  #d8caac
 
 ! black
-URxvt.color0: #282828
-URxvt.color8: #928374
+*.color0:       #868d80
+*.color8:       #868d80
 
 ! red
-URxvt.color1: #cc241d
-URxvt.color9: #fb4934
+*.color1:       #e68183
+*.color9:       #e68183
 
 ! green
-URxvt.color2: #98971a
-URxvt.color10: #b8bb26
+*.color2:       #a7c080
+*.color10:      #a7c080
 
 ! yellow
-URxvt.color3: #d79921
-URxvt.color11: #fabd2f
+*.color3:       #d9bb80
+*.color11:      #d9bb80
 
 ! blue
-URxvt.color4: #458588
-URxvt.color12: #83a598
+*.color4:       #89beba
+*.color12:      #89beba
 
 ! magenta
-URxvt.color5: #b16286
-URxvt.color13: #d3869b
+*.color5:       #d3a0bc
+*.color13:      #d3a0bc
 
 ! cyan
-URxvt.color6: #689d6a
-URxvt.color14: #8ec07c
+*.color6:       #87c095
+*.color14:      #87c095
 
 ! white
-URxvt.color7: #a89984
-URxvt.color15: #ebdbb2
+*.color7:       #d8caac
+*.color15:      #d8caac
+
+! URxvt Appearance
+! special
+URxvt.foreground: #d8caac
+URxvt.background: #323d43
+URxvt.cursorColor: #d8caac
+
+! black
+URxvt.color0: #868d80
+URxvt.color8: #868d80
+
+! red
+URxvt.color1: #e68183
+URxvt.color9: #e68183
+
+! green
+URxvt.color2: #a7c080
+URxvt.color10: #a7c080
+
+! yellow
+URxvt.color3: #d9bb80
+URxvt.color11: #d9bb80
+
+! blue
+URxvt.color4: #89beba
+URxvt.color12: #89beba
+
+! magenta
+URxvt.color5: #d3a0bc
+URxvt.color13: #d3a0bc
+
+! cyan
+URxvt.color6: #87c095
+URxvt.color14: #87c095
+
+! white
+URxvt.color7: #d8caac
+URxvt.color15: #d8caac
 
 !! URxvt Appearance
-URxvt.font: xft:Fira Code Nerd Font:size=10
+URxvt.font: xft:Fira Code Nerd Font:size=10,xft:Symbola:style=Regular:pixelsize=14
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
-URxvt.internalBorder: 24
+URxvt.internalBorder: 2
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.saveline: 2048
