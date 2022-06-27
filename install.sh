@@ -36,6 +36,7 @@ cp -r $REPO/nvim $HOME/.config/nvim
 
 # Xresources/Urxvt Config
 cp -r $REPO/Xresources $HOME/.Xresources
+xrdb ~/.Xresources
 
 # Zshrc
 cp -r $REPO/zshrc $HOME/.zshrc
