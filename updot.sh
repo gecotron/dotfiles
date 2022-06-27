@@ -2,20 +2,25 @@
 
 # Update dotfiles quickly and easily
 
+# Local repository variable
+# IMPORTANT
+REPO="/home/gecotron/Documents/dotfiles"
+
+
 # Polybar
-cp -r ~/.config/polybar ~/Documents/dotfiles/polybar
+cp -r ~/.config/polybar $REPO/polybar
 
 # Berry WM
-cp -r ~/.config/berry ~/Documents/dotfiles/berry
+cp -r ~/.config/berry $REPO/berry
 
 # Neovim 
-cp -r ~/.config/nvim ~/Documents/dotfiles/nvim
+cp -r ~/.config/nvim $REPO/nvim
 
 # Xresources/Urxvt Config
-cp -r ~/.Xresources ~/Documents/dotfiles/Xresources
+cp -r ~/.Xresources $REPO/Xresources
 
 # Zshrc
-cp -r ~/.zshrc ~/Documents/dotfiles/zshrc
+cp -r ~/.zshrc $REPO/zshrc
 
 # Finally, copy self for later use
-cp -r ~/updot.sh ~/Documents/dotfiles/updot.sh
+cp -r ~/updot.sh $REPO/updot.sh
