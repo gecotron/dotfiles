@@ -15,8 +15,8 @@ berryc edge_gap	35 10 10 10
 berryc focus_color         292D3E
 berryc unfocus_color       292D3E
 #main used
-berryc inner_focus_color   323d43
-berryc inner_unfocus_color 868d80 
+berryc inner_focus_color   868d80
+berryc inner_unfocus_color 323d43 
 berryc text_focus_color    d8caac
 berryc text_unfocus_color  d8caac
 
