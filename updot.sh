@@ -8,13 +8,16 @@ REPO="/home/gecotron/Documents/dotfiles"
 
 
 # Polybar
-cp -r ~/.config/polybar $REPO/polybar
+cp -r ~/.config/polybar $REPO/
+
+# Rofi
+cp -r ~/.config/rofi $REPO/
 
 # Berry WM
-cp -r ~/.config/berry $REPO/berry
+cp -r ~/.config/berry $REPO/
 
 # Neovim 
-cp -r ~/.config/nvim $REPO/nvim
+cp -r ~/.config/nvim $REPO/
 
 # Xresources/Urxvt Config
 cp -r ~/.Xresources $REPO/Xresources
